@@ -1,0 +1,26 @@
+{
+    "name": "socket-io-ws",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "tsc-watch --onSuccess \"node ./dist/index.js\" "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "module-alias": "^2.2.3",
+        "socket.io": "^4.7.2"
+    },
+    "_moduleAliases": {
+        "@": "dist"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.9",
+        "@typescript-eslint/eslint-plugin": "^6.6.0",
+        "@typescript-eslint/parser": "^6.6.0",
+        "tsc-watch": "^6.0.4",
+        "typescript": "^5.2.2"
+    }
+}
